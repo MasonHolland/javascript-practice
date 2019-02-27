@@ -45,7 +45,7 @@ Anytime a browser encounters a JavaScript file reference, it stops the rendering
 ---
 
 ## Data
----
+
 ### Variables
 
 Defined with ``` var a = 'a'; ```
@@ -61,13 +61,13 @@ var sum = a + b;
 "To avoid global scope, always declare your variables"
 
 ---
-#### Data Types
+### Data Types
 You can find the data type of a variable with this function
 ```
 console.log(typeof variableName);
 ```
 
-##### Numeric Data
+#### Numeric Data
 Stores regular numbers and integers
 ```
 var number      = 1;
@@ -76,7 +76,7 @@ var negNumber   = -1;
 var negInteger  = -3.141592;
 ```
 
-##### String Data
+#### String Data
 Stores strings of letters and symbols
 ```
 var string      = "Strings are typically words and sentences.";
@@ -84,20 +84,20 @@ var mixedQuote  = 'This keeps the "quotation" marks.';
 var escQuotes   = "Quotes can also be \"escaped\".";
 ```
 
-##### Boolean Data
+#### Boolean Data
 Stores one or the other of the binary pair true/false
 ```
 var theSunIsWarm          = true;
 var theMoonIsMadeOfCheese = false;
 ```
 
-##### null data
+#### null data
 Stores the intentional absence of a value
 ```
 var emptyInside = null;
 ```
 
-##### undefined Data
+#### undefined Data
 Placeholder when a variable is not set
 ```
 var justAnotherVariable;
@@ -110,11 +110,22 @@ Assignment Operator: `=`
 
 The equals symbol assigns a value to a variable.
 
-Arithmetic Operators: | `+` | `-` | `*` | `/` |
-                      |-----------------------|  
+|Arithmetic Operators|
+|--------------------|
+|Addition|Subtraction|Multiplication|Division|  
+|-----------------------|
+| `+` | `-` | `*` | `/` |
 
-Shorthand Operators:  | `+=` | `-=` | `*=` | `/=` |
-                      |---------------------------|
+|Shorthand Operators|
+|---------------------------|
+|Plus Equals|Minus Equals|Times Equals|Divide Equals|
+|---------------------------|
+| `+=` | `-=` | `*=` | `/=` |
 
-Unary Operators:      | `++` | `--` |
-                      |-------------|
+|Unary Operators|
+|-------------|
+|Plus Plus|Minus Minus|
+|-------------|
+| `++` | `--` |
+
+**NaN** will appear when one or more data types being operated on is a string.
