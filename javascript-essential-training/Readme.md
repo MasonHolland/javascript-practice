@@ -112,7 +112,7 @@ The equals symbol assigns a value to a variable.
 
 #### Arithmetic Operators
 
-|----------|-------------|----------------|----------|
+<!-- |----------|-------------|----------------|----------| -->
 |    `+`   |     `-`     |       `*`      |    `/`   |
 |----------|-------------|----------------|----------|
 | Addition | Subtraction | Multiplication | Division |
@@ -120,7 +120,7 @@ The equals symbol assigns a value to a variable.
 
 #### Shorthand Operators
 
-|-------------|--------------|--------------|-----------------|
+<!-- |-------------|--------------|--------------|-----------------| -->
 |     `+=`    |      `-=`    |      `*=`    |       `/=`      |
 |-------------|--------------|--------------|-----------------|
 | Plus Equals | Minus Equals | Times Equals | Division Equals |
@@ -129,7 +129,7 @@ The equals symbol assigns a value to a variable.
 
 #### Unary Operators
 
-|-----------|-------------|
+<!-- |-----------|-------------| -->
 |    `++`   |     `--`    |
 |-----------|-------------|
 | Plus Plus | Minus Minus |
