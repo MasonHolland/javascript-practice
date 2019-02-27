@@ -110,16 +110,16 @@ Assignment Operator: `=`
 
 The equals symbol assigns a value to a variable.
 
-| Arithmetic Operators |
-|-----------------------|
+Arithmetic Operators
 | `+` | `-` | `*` | `/` |
+|-----------------------|
 
-| Shorthand Operators |
-|---------------------------|
+Shorthand Operators
 | `+=` | `-=` | `*=` | `/=` |
+|---------------------------|
 
-| Unary Operators |
-|-------------|
+Unary Operators
 | `++` | `--` |
+|-------------|
 
 **NaN** will appear when one or more data types being operated on is a string.
