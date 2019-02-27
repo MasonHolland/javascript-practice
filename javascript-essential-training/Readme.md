@@ -25,10 +25,38 @@ Anytime a browser encounters a JavaScript file reference, it stops the rendering
 | Asynchronous Loading |
 | -------------------- |
 | ![JS Asynchronous Loading](https://i.imgur.com/ezxq1rO.png) |
----
+
 | Deferred Loading |
 | ---------------- |
 | ![JS Deferred Loading](https://i.imgur.com/4wuzdCt.png) |
+
 ---
 
 ### JS Coding Conventions
+
+* JS is case sensitive. Camel Case bing the preferred method
+
+* Whitespace matters (to humans). Add whitespace to make your code more readable
+
+* End each statement with a semicolon. Helps make code more readable and easy to understand when a statement is finished.
+
+* Use comments liberally. Helps provide context for self and future develops.
+
+---
+
+## Data Types
+
+### Variables
+
+Defined with ``` var a = 'a'; ```
+
+You cannot create a variable that begins with a number, but it can include them in the name.
+
+```
+var a;
+var b;
+var sum;
+a = 4;
+b = 5;
+sum = a + b;
+```
