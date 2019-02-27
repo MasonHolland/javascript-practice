@@ -169,6 +169,7 @@ console.log("The numbers match: " + theNumbersMatch);
 Output: `The numbers match: True`
 
 #### Logical Operators
+
 | `&&` | `||` |
 |------|------|
 | And | Or |
