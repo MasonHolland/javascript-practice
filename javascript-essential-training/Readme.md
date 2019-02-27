@@ -111,14 +111,17 @@ Assignment Operator: `=`
 The equals symbol assigns a value to a variable.
 
 Arithmetic Operators
+|-----------------------|
 | `+` | `-` | `*` | `/` |
 |-----------------------|
 
 Shorthand Operators
+|-----------------------|
 | `+=` | `-=` | `*=` | `/=` |
 |---------------------------|
 
 Unary Operators
+|-------------|
 | `++` | `--` |
 |-------------|
 
