@@ -44,8 +44,8 @@ Anytime a browser encounters a JavaScript file reference, it stops the rendering
 
 ---
 
-## Data Types
-
+## Data
+---
 ### Variables
 
 Defined with ``` var a = 'a'; ```
@@ -53,10 +53,68 @@ Defined with ``` var a = 'a'; ```
 You cannot create a variable that begins with a number, but it can include them in the name.
 
 ```
-var a;
-var b;
-var sum;
-a = 4;
-b = 5;
-sum = a + b;
+var a = 4;
+var b = 5;
+var sum = a + b;
 ```
+
+"To avoid global scope, always declare your variables"
+
+---
+#### Data Types
+You can find the data type of a variable with this function
+```
+console.log(typeof variableName);
+```
+
+##### Numeric Data
+Stores regular numbers and integers
+```
+var number      = 1;
+var integer     = 3.141592;
+var negNumber   = -1;
+var negInteger  = -3.141592;
+```
+
+##### String Data
+Stores strings of letters and symbols
+```
+var string      = "Strings are typically words and sentences.";
+var mixedQuote  = 'This keeps the "quotation" marks.';
+var escQuotes   = "Quotes can also be \"escaped\".";
+```
+
+##### Boolean Data
+Stores one or the other of the binary pair true/false
+```
+var theSunIsWarm          = true;
+var theMoonIsMadeOfCheese = false;
+```
+
+##### null data
+Stores the intentional absence of a value
+```
+var emptyInside = null;
+```
+
+##### undefined Data
+Placeholder when a variable is not set
+```
+var justAnotherVariable;
+// This variable is undefined
+```
+---
+
+### Operators
+Assignment Operator: `=`
+
+The equals symbol assigns a value to a variable.
+
+Arithmetic Operators: | `+` | `-` | `*` | `/` |
+                      |-----------------------|  
+
+Shorthand Operators:  | `+=` | `-=` | `*=` | `/=` |
+                      |---------------------------|
+
+Unary Operators:      | `++` | `--` |
+                      |-------------|
