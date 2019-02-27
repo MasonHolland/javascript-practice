@@ -112,16 +112,19 @@ The equals symbol assigns a value to a variable.
 
 #### Arithmetic Operators
 
-| `+` | `-` | `*` | `/` |
-|----------|-------------|----------------|----------|
-| Addition | Subtraction | Multiplication | Division |
+| `+` | `-` | `*` | `/` | `<` | `>` |
+|----------|-------------|----------------|----------|-----------|--------------|
+| Addition | Subtraction | Multiplication | Division | Less Than | Greater Than |
 
 #### Shorthand Operators
 
-| `+=` | `-=` | `*=` | `/=` |
-|-------------|--------------|--------------|-----------------|
-| Plus Equals | Minus Equals | Times Equals | Division Equals |
+| `+=` | `-=` | `*=` | `/=` | `>=` | `<=` |
+|-------------|--------------|--------------|-----------------|-----------------------|--------------------------|
+| Plus Equals | Minus Equals | Times Equals | Division Equals | Less Than or Equal to | Greater Than or Equal to |
 
+| `==` | `===` | `!=` | `!==` |
+|----------|-----------------|--------------|----------------------|
+| Equal to | Strict Equal to | Not Equal to | Not Strict Equals to |
 
 #### Unary Operators
 
@@ -130,3 +133,44 @@ The equals symbol assigns a value to a variable.
 | Plus Plus | Minus Minus |
 
 **NaN** will appear when one or more data types being operated on is a string.
+
+---
+
+### Conditionals and Logic
+
+```
+if ( some condition ) {
+  Do something.
+}
+```
+
+If `a` is equal to (contains the same value as) `b`:
+```
+if ( a == b ) {
+  Do something.
+} else {
+  Do something else.
+}
+```
+
+Example:
+```
+var a = 5;
+var b = 5;
+var theNumbersMatch;
+if ( a == b ) {
+  theNumbersMatch = true;
+} else {
+  theNumbersMatch = false;
+}
+
+console.log("The numbers match: " + theNumbersMatch);
+```
+Output: `The numbers match: True`
+
+#### Logical Operators
+| `&&` | `||` |
+|------|------|
+| And | Or |
+|`if ( a == b && c == d ) { }`|`if ( a == b || c == d ) { }`|
+|If `a` equals `b` **AND** `c` equals `d`|If `a` equals `b` OR `c` equals `d`|
