@@ -110,21 +110,15 @@ Assignment Operator: `=`
 
 The equals symbol assigns a value to a variable.
 
-|Arithmetic Operators|
-|--------------------|
-|Addition|Subtraction|Multiplication|Division|  
+| Arithmetic Operators |
 |-----------------------|
 | `+` | `-` | `*` | `/` |
 
-|Shorthand Operators|
-|---------------------------|
-|Plus Equals|Minus Equals|Times Equals|Divide Equals|
+| Shorthand Operators |
 |---------------------------|
 | `+=` | `-=` | `*=` | `/=` |
 
-|Unary Operators|
-|-------------|
-|Plus Plus|Minus Minus|
+| Unary Operators |
 |-------------|
 | `++` | `--` |
 
