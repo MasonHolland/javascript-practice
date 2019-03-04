@@ -170,8 +170,8 @@ Output: `The numbers match: True`
 
 #### Logical Operators
 
-|                   `&&`                   |                  `||`               |
-|------------------------------------------|-------------------------------------|
-|                   And                    |                   Or                |
-|       `if ( a == b && c == d ) { }`      |    `if ( a == b || c == d ) { }`  |
-| If `a` equals `b` **AND** `c` equals `d` | If `a` equals `b` **OR** `c` equals `d` |
+|                   `&&`                   |                    `||`                 |
+|------------------------------------------|-----------------------------------------|
+|                   And                    |                     Or                  |
+<!-- |       `if ( a == b && c == d ) { }`      |       `if ( a == b || c == d ) { }`     | -->
+<!-- | If `a` equals `b` **AND** `c` equals `d` | If `a` equals `b` **OR** `c` equals `d` | -->
