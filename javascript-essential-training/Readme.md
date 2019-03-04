@@ -170,7 +170,7 @@ Output: `The numbers match: True`
 
 #### Logical Operators
 
-| `&&` | `||` |
+| `&&` | `\|\|` |
 |---|---|
 | And | Or |
 <!-- |       `if ( a == b && c == d ) { }`      |       `if ( a == b || c == d ) { }`     | -->
